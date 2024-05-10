@@ -1,0 +1,123 @@
+.carousel-inner img {
+    width: 100%;
+max-height: 580px;
+    
+}
+
+.carousel-inner{
+ height: 600px;
+
+margin: auto;
+}
+
+
+img {
+
+float: left;
+
+}
+
+.zoom {
+   
+   
+    transition: transform .2s; /* Animation */
+  
+    
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .left{
+    float: left;
+    
+}
+.right{
+    float: right;
+    
+}
+.left-align {
+    text-align: left;
+}
+#videoBackground {
+    width: inherit;
+    height: inherit;
+    -webkit-filter: blur(15px);
+    -o-filter: blur(5px);
+    filter: blur(5px);
+    object-fit: cover;
+    transform: scale(1.06); /* Hide edge blur */
+}
+#container1 {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.fonta{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+footer {
+    background-color: #999898; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto en el pie de página */
+    padding: 20px; /* Espaciado interno del pie de página */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilo para las listas en el pie de página */
+.footer-menu {
+    display: inline-block; /* Hace que las listas se muestren en línea */
+    vertical-align: top; /* Alinea las listas en la parte superior */
+    margin-right: 20px; /* Espacio entre las listas */
+}
+
+/* Estilo para los enlaces en el pie de página */
+.footer-menu ul {
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el espacio interno de las listas */
+}
+
+.footer-menu ul li {
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+}
+
+/* Estilo para los enlaces en el pie de página */
+.footer-menu a {
+    color: #fff; /* Color de los enlaces en el pie de página */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+}
+.ocultar-div{
+    display:block;
+    text-align:center;
+    max-width:600px;
+    margin:auto;
+    padding:50px;
+    background-color:#000000;
+    color:#ffffff;
+    border:1px solid #000000;
+  }
+  @media screen and (min-width: 600px) {
+    .ocultar-div{
+      display:none;
+    }
+  }
+  .mostrar-div{
+    display:none;
+    text-align:center;
+    max-width:600px;
+    margin:auto;
+    padding:50px;
+    background-color:#ffffff;
+    border:1px solid #000000;
+  }
+  @media screen and (min-width: 600px) {
+    .mostrar-div{
+      display:block;
+    }
+  }
+  a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #333; /* Cambia el color de los enlaces, puedes usar el color que prefieras */
+  }
